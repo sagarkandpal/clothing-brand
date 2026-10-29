@@ -47,7 +47,7 @@ export function ProductCard({ product, priority = false }: { product: Card; prio
           <Link to={href}>{product.name}</Link>
         </h3>
         <Price price={product.price} originalPrice={product.originalPrice} />
-        {product.colors.length > 1 && (
+        {product.colors.length > 0 && (
           <div className="pcard__colors" role="group" aria-label="Colours">
             {product.colors.slice(0, CARD_COLORS).map((c) => (
               <button
