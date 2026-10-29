@@ -1,0 +1,10 @@
+{
+  "_note": "Free-plan limits used by the admin Plan Usage card. Edit these numbers when the plan changes; no code change needed.",
+  "plan": "MongoDB Atlas M0 (free)",
+  "dbLimitMB": 512,
+  "imageLimitMB": 380,
+  "warnPercent": 70,
+  "dangerPercent": 90,
+  "upgradePath": ["Atlas Flex", "Atlas M10"],
+  "netlifyUsageUrl": "https://app.netlify.com/"
+}
